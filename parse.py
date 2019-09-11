@@ -6,7 +6,7 @@ title_file = '"IPs";"Hostname";"FQDNs";"Description";"Asset Value";"Operating Sy
 file_csv = "serverlist.csv"
 
 # parse format like csv of AlienVault
-# "172.104.187.187,192.168.138.194";"WOW-PROD-SERVER14";"";"";"2";"Linux";"";"";"F43AB887BA84DFDF61B11D4AA37ED044";"0";""
+# "172.104.187.1,112.113.114.115";"WOW-TEST-SERVER";"";"";"2";"Linux";"";"";"F43AB887BA84DFDF61B11D4AA37ED044";"0";""
 format_line = ["","","","","2","Linux","","","","0",""]
 
 def convert(ip, domain):
